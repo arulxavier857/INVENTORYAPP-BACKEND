@@ -71,7 +71,7 @@ app.post('/addProduct', async (req,res)=>{
  })
  
 //config PORT and Start Server
-const PORT = 8000
+const PORT = 5000
 app.listen(PORT, ()=>{
     console.log(`Server running on port ${PORT}`)
 })
